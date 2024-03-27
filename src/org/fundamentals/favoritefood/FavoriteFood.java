@@ -12,9 +12,11 @@ public class FavoriteFood {
         System.out.println("My favorite food is: " + food[0]);
 
         //ultimo cibo preferito
-        System.out.println("My least favorite food is: " + food[5]);
+        int lastFavoriteFood = food.length - 1;
+        System.out.println("My least favorite food is: " + food[lastFavoriteFood]);
 
         //cibo preferito a metà dell'array
-        System.out.println("My middle favorite food is: " + food[2]);
+        int middleFavoriteFood = food.length / 2;
+        System.out.println("My middle favorite food is: " + food[middleFavoriteFood]);
     }
 }
